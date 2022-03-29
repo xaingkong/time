@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d2511e;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 头部模块 */
+
+.header {
+    height: 65px;
+    background: url(../images/heaader-bg.png);
+    border: none;
+}
+
+.header .w .header_01 {
+    float: right;
+}
+
+.header .w .header_01 li {
+    float: left;
+    line-height: 65px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.header .w .header_01 li a {
+    color: white;
+}
+
+.header .w .header_01 li a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.header .w .header_02 {
+    float: right;
+    color: white;
+    margin-left: 30px;
+}
+
+.header .w .header_02 li {
+    float: left;
+    line-height: 64px;
+}
+
+.header .w .header_02 li a {
+    padding: 0 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.header .w .header_02 li a:hover {
+    color: black;
+}
+
+.header_bg {
+    border: none;
+}
+
+
+/* 中心图片 */
+
+.header_bg {
+    height: 485px;
+}
+
+
+/* 导航模块 */
+
+.nav {
+    height: 50px;
+    background-color: #ea7d52;
+}
+
+.nav .w ul li {
+    width: 300px;
+    line-height: 50px;
+    font-size: 23px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.nav_bg img {}
+
+.nav_bg01 img {}
+
+.shangpin {
+    height: 470px;
+    margin-bottom: 20px;
+}
+
+.shangpin .w ul li {
+    float: left;
+    margin: 0 5px;
+}
+
+.shangpin01 {
+    width: 290px;
+    height: 460px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.shangpin01 p {
+    margin: 10px 0;
+}
+
+.shangpin01 p:nth-child(2) {
+    font-size: 23px;
+    font-weight: 700px;
+}
+
+.shangpin01 button {
+    background-color: red;
+    width: 130px;
+    height: 36px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.shangpin02 {
+    width: 116px;
+    height: 28px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    position: absolute;
+    top: 250px;
+    border-radius: 30px 30px 30px 0;
+}
+
+.tuijian {
+    position: relative;
+    height: 1140px;
+}
+
+.tuijian .w ul li {
+    float: left;
+    margin: 5px 5px;
+}
+
+.tuijian01 {
+    width: 390px;
+    height: 560px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.tuijian01 p {
+    margin: 10px 0;
+}
+
+.tuijian01 p:nth-child(2) {
+    font-size: 23px;
+    font-weight: 700px;
+}
+
+.tuijian button {
+    background-color: red;
+    width: 130px;
+    height: 36px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.tuijian02 {
+    width: 116px;
+    height: 28px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    position: absolute;
+    top: 350px;
+    border-radius: 30px 30px 30px 0;
+}
+
+.gengduo {
+    height: 278px;
+    position: relative;
+}
+
+.gengduo ul li {
+    float: left;
+    margin: 5px 0px;
+}
+
+.gengduo01 {
+    width: 239px;
+    height: 266px;
+    text-align: center;
+    background-color: white;
+}
+
+.gengduo01 p {
+    margin: 5px 0;
+}
+
+.gengduo01 p:nth-child(2) {
+    font-size: 23px;
+    font-weight: 700px;
+}
+
+.gengduo01 button {
+    background-color: red;
+    width: 130px;
+    height: 36px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.gengduo .gengduo_left {
+    width: 22px;
+    height: 75px;
+    position: absolute;
+    background-color: blue;
+    left: 0px;
+    top: 100px;
+}
+
+.gengduo .gengduo_right {
+    width: 22px;
+    height: 75px;
+    position: absolute;
+    background-color: silver;
+    right: 5px;
+    top: 100px;
+}
+
+.footer img:nth-child(1) {
+    margin-left: -50px;
+}
+
+.footer img:nth-child(2) {
+    margin-left: 310px;
+}
+
+.footer img:nth-child(3) {
+    margin-left: -50px;
+}
